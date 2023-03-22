@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 12px; */
+    /* font-family:'Courier New', Courier, monospace; */
+}
+body {
+    padding: 3em;
+}
+.exp  p {
+    font-style: italic;
+}
+.exp {
+    margin-left: 7rem;
+}
+li {
+    /* font-size: 10px; */
+}
+img {
+    width: 30px;
+}
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+.phone {
+    display: flex;
+}
+.history-text {
+    display: flex;
+    margin: 2rem 0;
+}
+section > h2 {
+    border-bottom: 1px solid rgb(156, 148, 148);
+}
+section {
+    margin: 2rem 0;
+}
