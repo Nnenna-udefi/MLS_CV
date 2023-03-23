@@ -2,38 +2,119 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* font-size: 12px; */
-    /* font-family:'Courier New', Courier, monospace; */
+    /* font-size: 16px; */
 }
 body {
-    padding: 3em;
-}
-.exp  p {
-    font-style: italic;
-}
-.exp {
-    margin-left: 7rem;
-}
-li {
-    /* font-size: 10px; */
+    padding: 1rem;
 }
 img {
-    width: 30px;
-}
-.details {
-    display: flex;
-    justify-content: space-between;
+    width: 5%;
 }
 .phone {
     display: flex;
 }
-.history-text {
-    display: flex;
-    margin: 2rem 0;
+h1, h2, h3 {
+    color: rgb(9, 9, 54)
+}
+.details {
+    /* display: flex; */
+    /* flex-flow: row wrap; */
+    /* align-items: center; */
+    margin-top: 1rem;
+    text-align: center;
+    /* justify-content: center; */
+}
+.summary {
+    text-align: center;
+    padding: 1rem 0;
+}
+.location {
+    font-style: italic;
+    padding-bottom: .5rem;
 }
 section > h2 {
-    border-bottom: 1px solid rgb(156, 148, 148);
+    border-bottom: 1px solid rgb(9, 9, 54);
+    margin: 1rem 0;
 }
-section {
-    margin: 2rem 0;
+.exp {
+    padding: 1rem 0;
+}
+.date {
+    font-weight: bold;
+    border-top: 1px solid rgb(9, 9, 54);
+    padding-top: 1rem;
+}
+.education {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+    * {
+        font-size: 18px;
+    }
+    body {
+        padding: 3em;
+    }
+    h1 {
+        font-size: 2rem;
+        padding-bottom: .5rem;
+    }
+    .summary {
+        text-align: justify;
+    }
+    h2 {
+        font-size: 1.7rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    .date {
+        font-weight: bold;
+        border: none;
+        padding-top: 0px;
+    }
+    .location {
+        padding-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+    .exp {
+        margin-left: 8rem;
+        padding: 0;
+    }
+    
+    img {
+        width: 30px;
+        height: 30px;
+    }
+    .details {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 1rem 0;
+    }
+    .education {
+        font-size: 1.2rem;
+    }
+    
+    .history-text {
+        display: flex;
+        margin: 2rem 0;
+    }
+    section > h2 {
+        border-bottom: 1px solid rgb(9, 9, 54);
+        margin: 2rem 0;
+    }
+    
+    section {
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
 }
